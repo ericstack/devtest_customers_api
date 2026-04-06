@@ -60,3 +60,5 @@ A simple test for Backend developers
 5. Start the server with `npm run dev`.
 6. Open the API endpoint at `http://localhost:<PORT>/api/customers/get-customers`.
    - Optional query parameters: `page`, `limit`, `search`, `sortBy`, `order`
+   
+> A backup database is available in the `db-backup` folder.
