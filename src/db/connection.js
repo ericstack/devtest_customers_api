@@ -12,6 +12,7 @@ export const pool = new Pool({
   ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : false,
 });
 
+
 // Test connection
 pool.on('connect', () => {
   console.log('Connected to PostgreSQL');
